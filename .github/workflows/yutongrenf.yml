@@ -1,9 +1,10 @@
 name: yutongrenf
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
-jobs:  # 1818
+    - cron: '39 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +12,8 @@ jobs:  # 1818
       - uses: actions/checkout@v4
       - name: yutongrenf
         env:
-          tw01068: ${{ secrets.tw01068 }}
+          tev12651: ${{ secrets.tev12651 }}
         run: |
-          echo $tw01068 | jq -r .f732 | /bin/bash
-          echo $by5296 | jq -r .nsf1 | /bin/bash
-          echo $yyaq7 | jq -r .upy3 | /bin/bash
+          echo $tev12651 | jq -r .u4273 | /bin/bash
+          echo $nbk1 | jq -r .goryv08586 | /bin/bash
 
